@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'tron';
+    src:url('../fonts/tron.ttf') format('truetype');     
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'akashi';
+    src:url('../fonts/akashi.ttf') format('truetype');     
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'junc';
+    src:url('../fonts/junc.ttf') format('truetype');     
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+body{
+	background-image: url('../img/back.jpg');
+	background-size: 100%;
+	text-align: center;
+
+}
+
+audio{
+	display: none;
+}
+
+#canvas {
+	position: absolute;
+	top: 0; left: 0; right: 0; bottom: 0;
+}
+
+#pp1, #pp2{
+	font-family: akashi;
+	position: absolute;
+	font-size: 300px;
+	color: #bdf439;
+	opacity: 0.5;
+	width: 177px;
+}

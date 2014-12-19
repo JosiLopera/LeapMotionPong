@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta name="viewport" content="width=device-width">
+  <title>Leap Canvas</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+<audio preload="auto" id="hit" controls>
+	<source src="audio/hit.ogg" type="audio/ogg">
+</audio>
+<audio preload="auto" id="tron" controls autoplay>
+	<source src="audio/tron.ogg" type="audio/ogg">
+</audio>
+<audio preload="auto" id="hit2" controls>
+	<source src="audio/hit2.ogg" type="audio/ogg">
+</audio>
+<audio preload="auto" id="shot" controls>
+	<source src="audio/shot.ogg" type="audio/ogg">
+</audio>
+<audio preload="auto" id="laser" controls>
+	<source src="audio/laser.ogg" type="audio/ogg">
+</audio>
+<audio preload="auto" id="lose" controls>
+	<source src="audio/lose.ogg" type="audio/ogg">
+</audio>
+
+<div id="pp1">0</div>
+<div id="pp2">0</div>
+
+<!-- Inclusion du framework LeapJS -->
+<script data-main="scripts/main" src="lib/require.js"></script>
+
+</body>
+</html>
